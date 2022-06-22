@@ -28,9 +28,9 @@ header>img {
 }
 
 header>div {
-    width: 60%;
+    width: 63%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 header>div>span {
@@ -44,7 +44,7 @@ header>div>span>h2 {
     font-size: 52px;
     color: #ff5e00;
     text-shadow: 1px 1px rgb(250, 144, 94);
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 header>div>span>p {
@@ -60,8 +60,28 @@ header>div>span>p>strong {
     color: #FF8000;
 }
 
+.botaoCompra {
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #FF8000;
+    box-shadow: 0px 0px 15px 7px #AED768;
+}
+.botaoCompra:hover{
+    transition-duration: 0.2s;
+    background-color: #e63b07;
+    color: rgb(226, 250, 90);
+}
+.botaoCompra:active {
+    transition-duration: 0ms;
+    box-shadow: none;
+    background-color: #6b1a01;
+}
 header>div>img {
-    width: 400px;
+    width: 422px;
 }
 
 main {
@@ -145,10 +165,6 @@ h1 {
     color: white;
 }
 
-.quadrinho:hover {
-    background-color: #ff5e00;
-    box-shadow: 0px 0px 15px 10px orange;
-}
 
 .quadrinho>img {
     height: 100px;
@@ -182,6 +198,10 @@ h1 {
         font-size: 15px;
     }
 
+    header {
+        /* background-image: url(../images/backgroundMobile.png); */
+    }
+
     header>img {
         width: 200px;
     }
@@ -189,6 +209,7 @@ h1 {
     header>div {
         width: 95%;
         flex-direction: column;
+        align-items: center;
     }
 
     header>div>span>h2 {
@@ -196,11 +217,18 @@ h1 {
     }
 
     header>div>span>p {
+        width: 85%;
         font-size: 19px;
     }
 
     header>div>span>p>strong {
-        font-size: 24px;
+        font-size: 21px;
+    }
+
+    #botaoCompra {
+        margin: 20px;
+        padding: 10px;
+        font-size: 19px;
     }
 
     header>div>img {
