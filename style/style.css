@@ -291,6 +291,41 @@ main {
     text-align: left;
 }
 
+#youtube {
+    margin: 150px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#quaisMateriais {
+    margin: 150px 0px;
+    width: 50%;
+    text-align: center;
+}
+
+#quaisMateriais>h1 {
+    margin-bottom: 80px;
+}
+
+.materiaisSpan {
+    display: flex;
+    background-color: #dbecbd;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+
+.materiaisSpan:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.materiaisSpan>span {
+    padding: 20px;
+}
+
+
+.materiaisImagem {
+    width: 300px;
+}
+
 @media screen and (max-width: 850px) {
     body {
         font-size: 15px;
@@ -442,5 +477,32 @@ main {
 
     .vaiEncontrarP {
         font-size: 17px;
+    }
+
+    #youtube {
+        margin: 0px;
+    }
+
+    #youtube>iframe {
+        width: 360px;
+        height: 240px;
+    }
+    #quaisMateriais {
+        margin: 0px;
+        width: 95%;
+    }
+    #quaisMateriais > h1 {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .materiaisSpan {
+        flex-direction: column;
+        align-items: center;
+    }
+    .materiaisSpan:nth-child(even) {
+        flex-direction: column;
+    }
+    .materiaisImagem {
+        width: 200px;
     }
 }
