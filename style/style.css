@@ -12,6 +12,7 @@ body {
 h1,
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #FF8000;
 }
 
 hr {
@@ -119,9 +120,6 @@ main {
 }
 
 
-h1 {
-    font-size: 46px;
-}
 
 #prova {
     width: 100%;
@@ -137,7 +135,6 @@ h1 {
     align-items: center;
     width: 70%;
     margin: 20px 0px 150px 0px;
-    color: #FF8000;
 }
 
 #provaOab>h1 {
@@ -203,7 +200,6 @@ h1 {
 }
 
 #quemPode>h1 {
-    color: #FF8000;
     text-align: center;
 }
 
@@ -215,9 +211,6 @@ h1 {
     margin: 150px 0px;
 }
 
-#paraQuem>h1 {
-    color: #FF8000;
-}
 
 #paraQuem>div {
     display: flex;
@@ -259,9 +252,6 @@ h1 {
     box-shadow: 0px 0px 10px 2px orange;
 }
 
-#estrategia>h1 {
-    color: #FF8000;
-}
 
 #estrategia>div {
     display: flex;
@@ -282,6 +272,23 @@ h1 {
 
 #estrategiaFoto {
     width: 400px;
+}
+
+#vaiEncontrar {
+    margin: 150px 0px;
+    width: 80%;
+}
+
+#vaiEncontrar>h1 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.vaiEncontrarP {
+    background-color: #dbecbd;
+    padding: 20px;
+    font-size: 24px;
+    text-align: left;
 }
 
 @media screen and (max-width: 850px) {
@@ -422,5 +429,18 @@ h1 {
 
     #estrategiaFoto {
         width: 150px;
+    }
+
+    #vaiEncontrar {
+        width: 95%;
+        margin: 0px;
+    }
+
+    #vaiEncontrar>h1 {
+        margin-bottom: 40px;
+    }
+
+    .vaiEncontrarP {
+        font-size: 17px;
     }
 }
