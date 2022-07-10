@@ -317,6 +317,7 @@ main {
 .materiaisSpan:nth-child(even) {
     flex-direction: row-reverse;
 }
+
 .materiaisSpan>span {
     padding: 20px;
 }
@@ -324,6 +325,17 @@ main {
 
 .materiaisImagem {
     width: 300px;
+}
+
+#depoimentos {
+    max-width: 85vw;
+    margin: 150px 0px;
+    text-align: center;
+}
+
+.glider {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 850px) {
@@ -487,22 +499,33 @@ main {
         width: 360px;
         height: 240px;
     }
+
     #quaisMateriais {
         margin: 0px;
         width: 95%;
     }
-    #quaisMateriais > h1 {
+
+    #quaisMateriais>h1 {
         margin-bottom: 30px;
         font-size: 22px;
     }
+
     .materiaisSpan {
         flex-direction: column;
         align-items: center;
     }
+
     .materiaisSpan:nth-child(even) {
         flex-direction: column;
     }
+
     .materiaisImagem {
         width: 200px;
+    }
+    #depoimentos {
+        margin: 0px;
+    }
+    #depoimentos > h1 {
+        font-size: 20px;
     }
 }
