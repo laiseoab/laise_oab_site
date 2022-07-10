@@ -101,7 +101,7 @@ main {
 }
 
 #quemSouEu {
-    background-color: aqua;
+    background-color: #840358;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,11 +111,11 @@ main {
     display: flex;
     width: 65%;
     align-items: center;
+    color: rgb(255, 255, 255);
 }
 
 #mulher {
-    height: 20vw;
-    border-radius: 50%;
+    width: 500px;
     margin: 15px;
 }
 
@@ -292,7 +292,7 @@ main {
 }
 
 #youtube {
-    margin: 150px 0px;
+    margin: 150px 0px 80px 0px;
     text-align: center;
     width: 100%;
 }
@@ -324,7 +324,7 @@ main {
 
 
 .materiaisImagem {
-    width: 300px;
+    width: 250px;
 }
 
 #depoimentos {
@@ -336,6 +336,54 @@ main {
 .glider {
     width: 100%;
     overflow-x: hidden;
+}
+
+#perguntas {
+    margin: 150px 0px;
+    width: 70%;
+    text-align: left;
+}
+
+#perguntas>h1 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.pergunta {
+    background-color: #AED768;
+    margin-bottom: 0px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.pergunta:hover {
+    background-color: #73a817;
+}
+
+.resposta {
+    background-color: #dbecbd;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    display: none;
+}
+
+.compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 70px 0px;
+}
+
+.imgCompra {
+    width: 600px;
+}
+
+.botaoCompra2 {
+    padding: 20px 70px;
 }
 
 @media screen and (max-width: 850px) {
@@ -372,6 +420,10 @@ main {
         font-size: 19px;
     }
 
+    .botaoCompra2 {
+        padding: 20px 70px;
+    }
+
     header>div>img {
         width: 190px;
     }
@@ -383,7 +435,7 @@ main {
     }
 
     #mulher {
-        height: 40vw;
+        width: 280px;
     }
 
     h1 {
@@ -492,7 +544,7 @@ main {
     }
 
     #youtube {
-        margin: 0px;
+        margin: 0px 0px 30px 0px;
     }
 
     #youtube>iframe {
@@ -510,9 +562,21 @@ main {
         font-size: 22px;
     }
 
+    #quaisMateriais>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .materiaisSpan {
         flex-direction: column;
         align-items: center;
+        width: 70%;
+        padding: 10px;
+    }
+
+    .materiaisSpan>span {
+        padding: 0;
     }
 
     .materiaisSpan:nth-child(even) {
@@ -520,12 +584,35 @@ main {
     }
 
     .materiaisImagem {
-        width: 200px;
+        width: 135px;
     }
+
     #depoimentos {
         margin: 0px;
     }
-    #depoimentos > h1 {
+
+    #depoimentos>h1 {
         font-size: 20px;
+    }
+
+    #perguntas {
+        margin: 0px 0px 20px 0px;
+        width: 95%;
+    }
+
+    #perguntas>h1 {
+        margin-bottom: 30px;
+    }
+
+    .resposta {
+        margin-bottom: 30px;
+    }
+
+    .compra {
+        margin: 0px;
+    }
+
+    .imgCompra {
+        width: 300px;
     }
 }
