@@ -1,335 +1,228 @@
 body {
+    margin: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin: 0px;
-    font-size: 21px;
     font-family: 'Poppins', sans-serif;
-}
-
-h1,
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #FF8000;
-}
-
-hr {
-    width: 65%;
-    border: solid #AED768;
-    border-radius: 20px;
-}
-
-header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../images/backgroundCabecalho.png);
-    background-attachment: fixed;
-}
-
-header>img {
-    width: 350px;
-}
-
-header>div {
-    width: 63%;
-    display: flex;
-    align-items: flex-end;
-}
-
-header>div>span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header>div>span>h2 {
-    text-align: center;
-    font-size: 52px;
-    color: #ff5e00;
-    text-shadow: 1px 1px rgb(250, 144, 94);
-    margin: 0px;
-}
-
-header>div>span>p {
-    width: 80%;
-    text-align: left;
     font-size: 24px;
     color: white;
-    margin: 0px;
-}
-
-header>div>span>p>strong {
-    font-size: 30px;
-    color: #FF8000;
-}
-
-.botaoCompra {
-    margin: 40px;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    background-color: #FF8000;
-    box-shadow: 0px 0px 2px 2px #AED768;
-}
-
-.botaoCompra:hover {
-    transition-duration: 0.2s;
-    background-color: #964d03;
-}
-
-.botaoCompra:active {
-    transition-duration: 0ms;
-    box-shadow: none;
-    background-color: #6b1a01;
-}
-
-header>div>img {
-    width: 422px;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/backgroundMain.png);
-}
-
-#quemSouEu {
-    background-color: #840358;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#textoQuemSouEu {
-    display: flex;
-    width: 65%;
-    align-items: center;
-    color: rgb(255, 255, 255);
-}
-
-#mulher {
-    width: 500px;
-    margin: 15px;
-}
-
-
-
-#prova {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 24px;
-}
-
-#provaOab {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin: 20px 0px 150px 0px;
-}
-
-#provaOab>h1 {
-    text-shadow: 1px 1px black;
-}
-
-#imgProva {
-    width: 100%;
-}
-
-#imgProvaOab {
-    width: 670px;
-}
-
-#quadrinhos {
-    display: flex;
-    width: 930px;
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-
-.quadrinho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    background-color: #840358;
-    text-align: center;
-    box-shadow: 0px 0px 10px 2px orange;
-    color: white;
 }
 
-
-.quadrinho>img {
-    height: 100px;
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
 }
 
-.quadrinho>p {
-    width: 80%;
-    font-size: 18px;
-}
-
-.icone {
-    height: 60px;
-}
-
-#quemPode span {
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-
-#quemPode {
-    width: 60%;
-    background-color: white;
-    margin: 150px 0px;
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 10px 2px orange;
-}
-
-#quemPode>h1 {
-    text-align: center;
-}
-
-#paraQuem {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 150px 0px;
-}
-
-
-#paraQuem>div {
+header {
+    width: 100%;
+    background-image: url(../images/backgroundHeader.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 690px;
+    background-color: #DD6930;
     display: flex;
     justify-content: center;
-    padding: 30px;
 }
 
-.paraQuemQuadrinho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: solid #AED768;
-    width: 260px;
-    height: 300px;
-    margin: 15px;
-    background-color: white;
-    box-shadow: 0px 5px 10px 1px rgb(133, 132, 132);
-    border-radius: 0px 0px 20px 20px;
-}
-
-.paraQuemQuadrinho>img {
-    width: 80px;
-    margin: 10px;
-}
-
-.paraQuemQuadrinho>p {
-    text-align: center;
-    width: 80%;
-}
-
-#estrategia {
+header>div {
     width: 70%;
-    padding-bottom: 18px;
-    border: solid #FF8000;
-    text-align: center;
-    background-color: white;
-    margin: 150px 0px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 10px 2px orange;
-}
-
-
-#estrategia>div {
     display: flex;
     justify-content: space-between;
 }
 
-#estrategia>div>span {
-    padding-top: 120px;
-    padding-right: 15px;
-    text-align: left;
-    font-size: 26px;
+header>div>span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-#estrategia strong {
-    background-color: #AED768;
-    color: #FF8000;
+header>div>img {
+    width: 550px;
 }
 
-#estrategiaFoto {
-    width: 400px;
+#iconeCabecalho {
+    width: 200px;
 }
 
-#vaiEncontrar {
-    margin: 150px 0px;
-    width: 80%;
+#textoCabecalho {
+    width: 600px;
 }
 
-#vaiEncontrar>h1 {
-    margin-bottom: 80px;
-    text-align: center;
-}
-
-.vaiEncontrarP {
-    background-color: #dbecbd;
+.botaoCompra {
+    text-decoration: none;
+    color: white;
+    background-color: #9FD42D;
     padding: 20px;
-    font-size: 24px;
-    text-align: left;
+    border-radius: 18px;
+    border: none;
+    font-size: 18px;
+    box-shadow: rgb(39, 39, 39) 5px 3px 15px 2px;
+    cursor: pointer;
 }
 
-#youtube {
-    margin: 150px 0px 80px 0px;
-    text-align: center;
+.botaoCompra:hover {
+    background-color: #a6ee0b;
+}
+
+.botaoCompra:active {
+    box-shadow: none;
+    background-color: #55701a;
+}
+
+#pHeader {
+    width: 70%;
+    margin: 37px 0px;
+}
+
+#secao1 {
+    background-image: url(../images/backgroundSection1.png);
     width: 100%;
 }
 
-#quaisMateriais {
-    margin: 150px 0px;
-    width: 50%;
+#secao2 {
+    background-color: #330352;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao3 {
+    background-image: url(../images/backgroundPerguntas.png);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secao4 {
+    background-color: #330352;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicioSpan1 {
+    width: 40%;
+    margin: 50px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: solid rgb(255, 255, 255) 10px;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 15px 3px;
+    font-size: 16px;
+}
+
+#inicioSpan1 span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-#quaisMateriais>h1 {
-    margin-bottom: 80px;
+#inicio>img {
+    width: 1000px;
+    margin-bottom: 50px;
 }
 
-.materiaisSpan {
+#inicioSpan2 {
     display: flex;
-    background-color: #dbecbd;
-    border-radius: 20px;
-    margin: 30px 0px;
+    justify-content: space-around;
+    border: solid rgb(255, 255, 255) 2px;
+    width: 70%;
+    font-size: 15px;
+    text-align: center;
 }
 
-.materiaisSpan:nth-child(even) {
-    flex-direction: row-reverse;
+#inicioSpan2 span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 270px;
 }
 
-.materiaisSpan>span {
-    padding: 20px;
+#inicioSpan2 img {
+    width: 70px;
 }
 
+#inicioSpan2 h3 {
+    margin-bottom: 2px;
+}
 
-.materiaisImagem {
-    width: 250px;
+#alemDisso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#alemDisso h1 {
+    margin-top: 80px;
+}
+
+#alemDisso span {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 1100px;
+    height: 65px;
+    background-color: #9FD42D;
+    border-radius: 30px;
+    font-size: 19px;
+    margin: 10px 0px;
+    color: #ebeced;
+}
+
+#alemDisso b {
+    color: #330352;
+}
+
+#conheca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conheca>img {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+iframe {
+    border: solid #DD6930 6px;
+    border-radius: 5px;
+}
+
+#wave {
+    width: 100%;
+    margin-bottom: -10px;
+    margin-top: 20px;
 }
 
 #depoimentos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 85vw;
-    margin: 150px 0px;
     text-align: center;
 }
 
@@ -338,281 +231,287 @@ main {
     overflow-x: hidden;
 }
 
-#perguntas {
-    margin: 150px 0px;
-    width: 70%;
-    text-align: left;
-}
-
-#perguntas>h1 {
-    margin-bottom: 80px;
-    text-align: center;
-}
-
-.pergunta {
-    background-color: #AED768;
-    margin-bottom: 0px;
-    cursor: pointer;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.pergunta:hover {
-    background-color: #73a817;
-}
-
-.resposta {
-    background-color: #dbecbd;
-    margin-top: 0px;
-    margin-bottom: 60px;
-    padding: 10px;
-    border-radius: 0px 0px 20px 20px;
-    display: none;
-}
-
-.compra {
+#amostra {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 0px 70px 0px;
 }
 
-.imgCompra {
+#amostra>span {
+    display: flex;
+}
+
+#amostra>span>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#amostra1 {
+    width: 650px;
+}
+
+#amostra2 {
+    width: 400px;
+}
+
+#amostra a {
+    margin-top: 90px;
+    padding: 20px 60px;
+}
+
+#comprando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comprando>span {
+    display: flex;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+#comprando p {
+    margin: 0px;
+    font-size: 22px;
+    background-color: #DD6930;
+    width: 900px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#tudoIsso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tudoIsso0 {
+    width: 800px;
+    margin-top: 30px;
+}
+
+#tudoIsso1 {
+    width: 400px;
+    margin-top: 30px;
+}
+
+#tudoIsso a {
+    margin: 50px 0px;
+}
+
+#tudoIsso2 {
+    width: 500px;
+}
+
+#perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perguntas>span {
+    width: 950px;
+    color: black;
+}
+
+.pergunta {
+    background-color: #9FD42D;
+    height: 45px;
+    margin-bottom: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pergunta:hover {
+    background-color: #a6ee0b;
+}
+
+.pergunta:active {
+    background-color: #55701a;
+}
+
+.resposta {
+    background-color: #c3df89;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: left;
+    display: none;
+}
+
+#quemSou {
+    display: flex;
+    align-items: flex-end;
+}
+
+#quemSou img {
     width: 600px;
 }
 
-.botaoCompra2 {
-    padding: 20px 70px;
+#quemSou span {
+    width: 600px;
+    text-align: right;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 850px) {
     body {
-        font-size: 15px;
-    }
-
-    header>img {
-        width: 200px;
-    }
-
-    header>div {
-        width: 95%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header>div>span>h2 {
-        font-size: 35px;
-    }
-
-    header>div>span>p {
-        width: 85%;
-        font-size: 19px;
-    }
-
-    header>div>span>p>strong {
-        font-size: 21px;
-    }
-
-    .botaoCompra {
-        margin: 20px;
-        padding: 8px;
-        font-size: 19px;
-    }
-
-    .botaoCompra2 {
-        padding: 20px 70px;
-    }
-
-    header>div>img {
-        width: 190px;
-    }
-
-    #textoQuemSouEu {
-        flex-direction: column-reverse;
-
-        width: 90%;
-    }
-
-    #mulher {
-        width: 280px;
+        font-size: 16px;
     }
 
     h1 {
         font-size: 30px;
     }
 
-    #provaOab {
-        width: 100%;
-        text-align: center;
-        margin: 20px 0px;
-    }
-
-    #imgProvaOab {
-        width: 350px;
-    }
-
-    #provaOab>h2 {
-        font-size: 30px;
-    }
-
-    #quadrinhos {
-        width: 100%;
-    }
-
-    .quadrinho {
-        width: 170px;
-        height: 250px;
-    }
-
-    .quadrinho>img {
-        height: 80px;
-    }
-
-    .quadrinho>p {
-        width: 90%;
-        font-size: 13px;
-    }
-
-    #quemPode {
-        width: 85%;
-        margin: 30px 0px;
-    }
-
-    #quemPode h1 {
-        text-align: center;
-    }
-
-    #paraQuem {
-        margin: 0px;
-        width: 95%;
-    }
-
-    #paraQuem>h1 {
-        font-size: 25px;
-        margin-bottom: 0px;
-    }
-
-    #paraQuem>div {
+    header>div {
         flex-direction: column;
         align-items: center;
     }
 
-    .paraQuemQuadrinho {
-        height: 230px;
+    header>div>img {
+        width: 200px;
     }
 
-    .paraQuemQuadrinho>p {
-        font-size: 18px;
+    header>div>span {
+        align-items: center;
     }
 
-    #estrategia {
-        width: 95%;
-        margin: 30px 0px;
+    #textoCabecalho {
+        margin-top: 30px;
+        width: 350px;
     }
 
-    #estrategia>h1 {
-        font-size: 25px;
+    #iconeCabecalho {
+        width: 100px;
     }
 
-    #estrategia>div {
-        justify-content: space-between;
+    #pHeader {
+        width: 90%;
     }
 
-    #estrategia>div>span {
-        font-size: 14px;
-        padding: 0px;
-        width: 50%;
-        flex-grow: 1;
+
+    #inicioSpan1 {
+        width: 90%;
+        border: solid rgb(255, 255, 255) 5px;
+        font-size: 13px;
+        padding: 20px 0px;
     }
 
-    #estrategiaFoto {
-        width: 150px;
+    #inicioSpan1 span {
+        margin: 0px 10px;
     }
 
-    #vaiEncontrar {
-        width: 95%;
-        margin: 0px;
+    #inicioSpan1 img {
+        width: 40px;
     }
 
-    #vaiEncontrar>h1 {
-        margin-bottom: 40px;
+    #inicio>img {
+        width: 380px;
     }
 
-    .vaiEncontrarP {
-        font-size: 17px;
+    #inicioSpan2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
     }
 
-    #youtube {
-        margin: 0px 0px 30px 0px;
+    #inicioSpan2 img {
+        width: 45px;
     }
 
-    #youtube>iframe {
+    #inicioSpan2 span {
+        width: 200px;
+        margin-top: 35px;
+    }
+
+    #alemDisso span {
+        font-size: 12.5px;
+        width: 90%;
+    }
+
+    #conheca>img {
+        width: 80%;
+        margin-top: 45px;
+    }
+
+    iframe {
         width: 360px;
         height: 240px;
     }
 
-    #quaisMateriais {
-        margin: 0px;
-        width: 95%;
+    #depoimentos h1 {
+        font-size: 26px;
     }
 
-    #quaisMateriais>h1 {
-        margin-bottom: 30px;
-        font-size: 22px;
+    #amostra>img {
+        width: 350px;
     }
 
-    #quaisMateriais>div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .materiaisSpan {
-        flex-direction: column;
-        align-items: center;
-        width: 70%;
-        padding: 10px;
-    }
-
-    .materiaisSpan>span {
-        padding: 0;
-    }
-
-    .materiaisSpan:nth-child(even) {
+    #amostra>span {
         flex-direction: column;
     }
 
-    .materiaisImagem {
-        width: 135px;
-    }
-
-    #depoimentos {
-        margin: 0px;
-    }
-
-    #depoimentos>h1 {
-        font-size: 20px;
-    }
-
-    #perguntas {
-        margin: 0px 0px 20px 0px;
-        width: 95%;
-    }
-
-    #perguntas>h1 {
-        margin-bottom: 30px;
-    }
-
-    .resposta {
-        margin-bottom: 30px;
-    }
-
-    .compra {
-        margin: 0px;
-    }
-
-    .imgCompra {
+    #amostra1 {
         width: 300px;
+    }
+
+    #amostra2 {
+        width: 240px;
+        margin-top: 20px;
+    }
+
+    #amostra a {
+        margin-top: 30px;
+    }
+
+    #comprando>img {
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    #comprando p {
+        width: 290px;
+        font-size: 12.5px;
+    }
+
+    #tudoIsso0 {
+        width: 350px;
+    }
+
+    #tudoIsso1 {
+        width: 230px;
+    }
+
+    #tudoIsso2 {
+        width: 330px;
+    }
+
+    #perguntas>span {
+        width: 350px;
+    }
+
+    .pergunta {
+        font-size: 15px;
+    }
+
+    #quemSou {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #quemSou span {
+        width: 300px;
+        text-align: left;
+        font-size: 17px;
+    }
+
+    #quemSou h1 {
+        text-align: center;
+    }
+
+    #quemSou img {
+        width: 250px;
     }
 }
